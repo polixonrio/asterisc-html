@@ -1,0 +1,22 @@
+body {
+    height:100vh;
+}
+
+.container{
+    height: 100%;
+    width: 100% !important;
+    background-color: #ffffff;
+}
+
+.form__link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover{
+    text-decoration: underline;
+}
+
+.form--hidden{
+    display:none !important;
+}
