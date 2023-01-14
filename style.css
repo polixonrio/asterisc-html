@@ -1,11 +1,64 @@
 body {
     height:100vh;
+    background-color: rgb(233, 245, 236) !important;
+}
+.card {
+    box-sizing: border-box;
+    padding: 10px;
+    position:absolute;
 }
 
-.container{
-    height: 100%;
-    width: 100% !important;
+.rdb{
+    margin-left: -25px; too
+}
+
+.container-fluid{
+    height: 100%  !important;
     background-color: #ffffff;
+    width: 640px !important;
+    max-width: 90vw !important;
+    background-color: rgb(233, 245, 236) !important;
+    
+}
+.tIvQIf .N0gd6 {
+    padding-bottom: 12px;
+}
+
+
+.greenline {
+    background-color: rgb(108, 186, 130);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 10px;
+    position: relative;
+    top: -27px;
+    left: -27px;
+    width: 616px !important;
+    margin:auto !important;
+}
+
+.form__input-group{
+
+}
+
+
+.ErmvL {
+
+    width: 640px !important;
+    margin:auto !important;
+
+}
+
+.KHCwJ {
+    margin:auto !important;
+    padding: 10px !important;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin: auto;
+
+    height: 159.1979949874687px;
+    
 }
 
 .form__link {
@@ -19,4 +72,40 @@ body {
 
 .form--hidden{
     display:none !important;
+}
+
+
+
+/* Create the line */
+.line {
+    width: 0; /* Start with no width */
+    height: 2px; /* Set the height of the line */
+    background-color: green; /* Set the color of the line */
+    margin: 0 auto; /* Center the line horizontally */
+    transition: all 0.5s ease-in-out; /* Add a transition to smoothly change the width */
+    visibility: hidden; /* Start with the line hidden */
+}
+
+/* Show the line when the input field is in focus */
+input:focus + .line {
+    width: 96%; /* Expand the line to full width */
+    visibility: visible; /* Make the line visible */
+}
+
+
+
+
+
+.col-12{
+    width: 640px !important;
+}
+
+
+.form-label{
+    margin-bottom: 20px !important;
+}
+
+.RH5hzf {
+
+    word-wrap: break-word;
 }
